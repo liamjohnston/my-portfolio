@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<title>Online Bookings</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<section class="container topArea topArea--ob">
+	<div class="container--inner topArea--split">
+
+		<div class="topArea--words">
+			<p class="text-big">Online Bookings</p>
+			<p>An appointment booking site, used by hundreds of businesses around NZ, Australia and UK.</p>
+
+			<a href="https://apps.baxus.com/bookings/liamtest" class="btn" target="_blank" rel="noopener">Make a booking</a>
+			<p class="text-sm">(go ahead - this one's just a test business)</p>
+		</div>
+		<div class="topArea--imagery">
+			<div class="ob--video">
+				<video id="theVid" autoplay>
+				  <source src="video/ob-video-2.webm" type="video/webm">
+				  <source src="video/ob-video-2.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		
+		
+		<!-- <img class="hero" src="img/ob-lappy.png" /> -->
+
+		
+
+	</div>
+</section>
+
+<section class="container bodyArea">
+	<div class="container--inner narrow obInner">
+
+		<div>
+			<div class="ob--about">
+				<h2 class="color--ob">About Online Booking</h2>
+				<p>Online Booking is an appointment booking website used by (mainly) hair salons and beauty spas. It's add-on feature for Kitomba customers, and is the main area where Kitomba's <em>client's</em> clients interact directly with a Kitomba systems. It therefore has a much wider reach than the main Kitomba system used by stylists/receptionists/etc.</p>
+			</div>
+			<div class="ob--result">
+				<h2 class="color--ob">How good is it?</h2>
+				<ul class="bullets">
+					<li>At launch, bookings up by 25% overnight</li>
+					<li>Handles nearly $2m in bookings every week</li>
+				</ul>
+			</div>
+		</div>		
+
+		<div class="ob--involvement">
+			<h2 class="color--ob">What I did</h2>
+			<p>The old booking system stunk, so I yada yada</p>
+			<ul class="bullets">
+				<li>I <strong>convinced</strong> the folks at Kitomba that the old booking system needed a complete overhaul. <!-- The old system sucked for many reasons, but the biggest issues were that it had a login/signup wall at the start and it was extremely mobile-unfriendly. At the time the site had 30% of sessions on mobile, this is up to 60% today. --><br />
+				In a company like Kitomba where building new features is always prioritised over improving (or removing) existing ones, this in itself was quite an achievement.</li>
+				<li>I was able to do said convincing with the help of <strong>data</strong>, and by building <strong>prototypes</strong> illustrating how much better the system could be.</li>
+				<li>I <strong>tested</strong> the ideas on colleagues and unsuspecting people on other floors of our building, throughout the project. This was a mix of paper prototyping and user testing.</li>
+				<li>I worked closely with the devs as they backbone-ised it and hooked up a backend. And I ensured they got it working in a <em>nice</em> way</li>
+				<li>I also designed and built the customisation area where each business can choose styles and settings.</li>
+			</ul>
+		</div>
+
+		
+		
+	</div>
+
+</section>
+
+
+
+<script>
+
+</script>
+
+<script>
+	document.getElementById('theVid').addEventListener('ended',myHandler,false);
+	function myHandler(e) {
+	    setTimeout(function(){
+	        document.getElementById('theVid').play();
+	    }, 5000);
+	}
+</script>
+
+</body>
+</html>
