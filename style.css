@@ -134,16 +134,16 @@ li {
 	background-repeat: no-repeat;
 	background-position: 0;
     background-size: 100%;
-    width: 334px;
-    height: 561px;
+	width: 365px;
+	height: 568px;
     position: relative;
     margin: 40px auto 0;
 }
 .ob--video video {
-    width: 266px;
-    position: absolute;
-    bottom: 0;
-    right: 21px;
+	width: 270px;
+	position: absolute;
+	bottom: -6px;
+	right: 47px;
 }
 
 h2.color--tgs {
