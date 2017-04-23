@@ -141,7 +141,7 @@ li {
 
 .hero--video {
 	bottom: 0;
-	background-image: url('img/iphone6-frame.png');
+	background-image: url('../img/iphone6-frame.png');
 	background-repeat: no-repeat;
 	background-position: 0;
     background-size: 100%;
