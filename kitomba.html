@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+	<title>Kitomba</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<section class="container topArea topArea--kitomba">
+	<div class="container--inner topArea--split">
+
+		<div class="topArea--words">
+			<p class="text-big">Kitomba</p>
+			<p>Providing business management solutions to the hair and beauty industry. Used by thousands of businesses around NZ, Australia and UK.</p>
+		</div>
+		<div class="topArea--imagery">
+			<div class="hero--video">
+				<video id="theVid" autoplay playsinline>
+				  <source src="video/kitomba-video.webm" type="video/webm">
+				  <source src="video/kitomba-video.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section class="container bodyArea">
+	<div class="container--inner narrow kitombaInner">
+
+		<div>
+			<div class="kitomba--about">
+				<h2 class="color--kitomba">About Kitomba</h2>
+				<p>Kitomba provide salon management software to companies in NZ, Australia and the UK.</p>
+				<p>yada yada</p>
+			</div>
+			<div class="kitomba--result">
+				<h2 class="color--kitomba">How good is it?</h2>
+				<ul class="bullets">
+					<li>yada</li>
+					<li>yada</li>
+				</ul>
+			</div>
+		</div>		
+
+		<div class="kitomba--involvement">
+			<h2 class="color--kitomba">What I did</h2>
+			<p>yada</p>
+			<ul class="bullets">
+				<li>yada</li>
+				<li>yada</li>
+			</ul>
+			
+		</div>
+
+		
+		
+	</div>
+
+</section>
+
+
+
+<script>
+
+</script>
+
+<script>
+	document.getElementById('theVid').addEventListener('ended',myHandler,false);
+	function myHandler(e) {
+	    setTimeout(function(){
+	        document.getElementById('theVid').play();
+	    }, 5000);
+	}
+</script>
+
+</body>
+</html>

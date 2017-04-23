@@ -68,11 +68,14 @@ body, html {
 strong {
 	font-weight: bold;
 }
+em {
+	font-style: italic;
+}
 h2 {
-	font-size: 2rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
-//	font-family: 'Helvetica Neue', Verdana, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    line-height: initial;
 }
 p {
     line-height: 1.2em;
@@ -93,9 +96,10 @@ li {
 }
 
 .topArea {
-	background: #eb3349;
-	background: -webkit-linear-gradient(to bottom, #eb3349, #f45c43);
-	background: linear-gradient(to bottom, #eb3349, #f45c43);
+	background: #f857a6;
+	background: -webkit-linear-gradient(to bottom, #ff5858, #f857a6);
+	background: linear-gradient(to bottom, #ff5858, #f857a6);
+
 	box-shadow: 0 -10px 10px -7px rgba(0,0,0,0.1) inset;
 	font-weight: lighter;
 	color: #fff;
@@ -119,6 +123,11 @@ li {
 	background: linear-gradient(to bottom, #5eb84c, #a1e694);
 	padding-bottom: 0;
 }
+.topArea--kitomba {
+	background: #457fca;
+	background: -webkit-linear-gradient(to bottom, #5691c8, #457fca);
+	background: linear-gradient(to bottom, #5691c8, #457fca);
+}
 
 .topArea--words {
 	text-align: center;
@@ -131,7 +140,7 @@ li {
     margin-right: -50px;
 }
 
-.ob--video {
+.hero--video {
 	bottom: 0;
 	background-image: url('img/iphone6-frame.png');
 	background-repeat: no-repeat;
@@ -142,7 +151,7 @@ li {
     position: relative;
     margin: 40px auto 0;
 }
-.ob--video video {
+.hero--video video {
 	width: 270px;
 	position: absolute;
 	bottom: -6px;
@@ -154,6 +163,9 @@ h2.color--tgs {
 }
 h2.color--ob {
 	color: #5eb84c;
+}
+h2.color--kitomba {
+	color: #0076bc;
 }
 
 /*.topArea p:first-of-type {
@@ -209,6 +221,9 @@ h2.color--ob {
 .card p {
 	margin-bottom: 0;
 }
+.card h2 {
+	color: #fb5783;
+}
 
 .testimonials {
 	text-align: center;
@@ -252,10 +267,7 @@ h2.color--ob {
 			text-align: left;
 			margin-top: 120px;
 		}
-		.topArea--imagery {
-			margin-left: auto;
-    		margin-right: auto;
-		}
+		
 
 	}
 }
@@ -333,24 +345,10 @@ h2.color--ob {
 	width: 100%;
 }
 .card--head {
-	position: relative;
-	
 	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-}
-.card--head h2 {
-	font-size: 1.2rem;
-	font-weight: normal;
-	margin: 0;
-	width: 100%;
-	background: rgba(241, 79, 69, 0.9);
-	color: #fff;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
 }
 .card--body {
 	padding: 1rem;
@@ -414,9 +412,13 @@ h2.color--ob {
 	.me {
 		display: block;
 	}
-	.ob--video {
+	.hero--video {
 		margin: 40px 0 0 0;
     	float: right;
+	}
+	.topArea--imagery {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media all and (min-width: 1100px) {
