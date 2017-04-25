@@ -71,6 +71,10 @@ strong {
 em {
 	font-style: italic;
 }
+h1 {
+	font-size: 3.5rem;
+	margin-bottom: 30px;
+}
 h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -252,11 +256,22 @@ h2.color--kitomba {
 }
 .teaser--imagery {
 	background: #aaa;
-	min-height: 300px;
-	background-repeat: no-repeat;
-	background-position: center bottom;
+	/*min-height: 300px;*/
+	padding: 40px 20px 0;
+
+	display: flex;
+	justify-content: center;  
+	align-items: flex-end;
+
 	/*background-size: cover;*/
 }
+.teaser--imagery img {
+	/*position: relative;
+	margin: 0 auto;
+	bottom: 0;*/
+	width: 100%;
+}
+
 .teaser__tgs .teaser--imagery {
 	background-color: #5c8193;
 }
@@ -381,7 +396,10 @@ h2.color--kitomba {
 	}
 	@media all and (min-width: 1100px) {
 		.teaser {
-			grid-template-columns: 1fr 1fr;	
+			grid-template-columns: 1fr 680px;	
+		}
+		.teaser--imagery img {
+			max-width: 95%;
 		}
 		
 	}
@@ -466,7 +484,7 @@ h2.color--kitomba {
 
 }
 @media all and (min-width: 1100px) {
-	.topArea p:first-of-type {
+	.topArea h1 {
 		padding-top: 30px;
 	}
 	.teaser--body {
