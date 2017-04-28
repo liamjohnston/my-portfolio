@@ -203,9 +203,6 @@ nav li {
 	margin-left: -50px;
     margin-right: -50px;
 }
-.topArea--imagery {
-    
-}
 
 .hero--video {
 	bottom: 0;
@@ -251,10 +248,10 @@ h2.color--kitomba {
     margin: 0 auto;
 }
 .topArea--split {
-	max-width: 1000px;
+	max-width: 900px;
 }
 .narrow {
-	max-width: 1000px;
+	max-width: 900px;
 }
 
 .teaserArea {
@@ -305,6 +302,10 @@ h2.color--kitomba {
 }
 .teaser--imagery img {
 	width: 100%;
+}
+
+.ob--result {
+	order: 1;
 }
 
 
@@ -504,8 +505,8 @@ h2.color--kitomba {
     	float: right;
 	}
 	.topArea--imagery {
-		margin-left: auto;
-    	margin-right: auto;
+		//margin-left: auto;
+    	margin-right: 0;
 	}
 	.visible-md-up {
 		display: block;
