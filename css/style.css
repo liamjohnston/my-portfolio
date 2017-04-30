@@ -391,7 +391,7 @@ h2.color--kitomba {
 }
 
 @supports (display: grid) {
-    .teaser, .testimonials, .tgsInner, .obInner, .topArea--split {
+    .teaser, .testimonials, .tgsInner, .obInner {
    		display: grid;
    		grid-template-columns: 1fr;
    	}
@@ -419,6 +419,9 @@ h2.color--kitomba {
 		}
 	}
 	@media screen and (min-width: 800px) {
+		.topArea--split {
+	   		display: grid;
+	   	}
 		.tgsInner, .topArea--split {
 			grid-template-columns: 1fr 1fr;
 		}
