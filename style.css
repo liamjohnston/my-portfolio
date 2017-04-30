@@ -190,7 +190,7 @@ h2.color--kitomba {
 .bodyArea p {
 	margin-bottom: 1.2em;
 }
-.container--inner {
+.container__inner {
 	max-width: 1200px;
     margin: 0 auto;
 }
