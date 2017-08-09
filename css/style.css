@@ -91,7 +91,7 @@ p {
 	border-radius: 4px;
 	margin-bottom: 10px;
 }
-.bodyArea a, .bodyArea a:visited {
+a, a:visited {
 	color: rgb(241, 79, 69);
 }
 li {
