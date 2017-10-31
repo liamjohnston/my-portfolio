@@ -401,6 +401,19 @@ h2.color--kitomba {
   padding: 20px 20px 0;
 }
 
+.hark {
+  background: rgb(241, 79, 69);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0 auto 50px;
+}
+.hark a {
+  color: #fff;
+}
+
 @supports not (display: grid) {
   .teaser {
     overflow: hidden;
